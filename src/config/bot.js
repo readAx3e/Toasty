@@ -156,11 +156,11 @@ export const botConfig = {
   economy: {
     currency: {
       // Currency display name.
-      name: "coins",
+      name: "bread",
       // Plural display name.
-      namePlural: "coins",
+      namePlural: "breads",
       // Currency symbol shown in balances.
-      symbol: "$",
+      symbol: "🍞",
     },
 
     // Starting balance for new users.
@@ -185,7 +185,7 @@ export const botConfig = {
 
     // Jail time after failed rob (milliseconds).
     // 3600000 = 1 hour.
-    robFailJailTime: 3600000, 
+    robFailJailTime: 1800000, 
   },
 
   // =========================
@@ -264,7 +264,7 @@ export const botConfig = {
     maximumDuration: 2592000000, 
 
     // Role IDs allowed to host giveaways.
-    allowedRoles: [],
+    allowedRoles: [1508159040595820544],
 
     // Role IDs that bypass giveaway restrictions.
     bypassRoles: [],
@@ -427,7 +427,7 @@ export const botConfig = {
     missingPermissions:
       "I am missing required permissions to perform this action.",
     commandDisabled: "This command has been disabled.",
-    maintenanceMode: "The bot is currently in maintenance mode.",
+    maintenanceMode: "The bot is currently in maintenance mode. Unavailable.",
   },
 
   // =========================
